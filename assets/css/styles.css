@@ -1,0 +1,1555 @@
+@font-face {
+  font-family: 'maax_roundedbold_italic';
+  src: url("../fonts/maax_rounded_bolditalic-webfont.woff2") format("woff2"), url("../fonts/maax_rounded_bolditalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'maax_roundeditalic';
+  src: url("../fonts/maax_rounded_italic-webfont.woff2") format("woff2"), url("../fonts/maax_rounded_italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'maax_roundedmedium';
+  src: url("../fonts/maax_rounded_medium-webfont.woff2") format("woff2"), url("../fonts/maax_rounded_medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'maax_roundedmedium_italic';
+  src: url("../fonts/maax_rounded_mediumitalic-webfont.woff2") format("woff2"), url("../fonts/maax_rounded_mediumitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'maax_rounded';
+  src: url("../fonts/maax_rounded-webfont.woff2") format("woff2"), url("../fonts/maax_rounded-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'maax_roundedbold';
+  src: url("../fonts/maax_rounded_bold-webfont.woff2") format("woff2"), url("../fonts/maax_rounded_bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'recoletablack';
+  src: url("../fonts/recoleta-black-webfont.woff2") format("woff2"), url("../fonts/recoleta-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'recoletabold';
+  src: url("../fonts/recoleta-bold-webfont.woff2") format("woff2"), url("../fonts/recoleta-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'recoletalight';
+  src: url("../fonts/recoleta-light-webfont.woff2") format("woff2"), url("../fonts/recoleta-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'recoletamedium';
+  src: url("../fonts/recoleta-medium-webfont.woff2") format("woff2"), url("../fonts/recoleta-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'recoletaregular';
+  src: url("../fonts/recoleta-regular-webfont.woff2") format("woff2"), url("../fonts/recoleta-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'recoletaregular_demo';
+  src: url("../fonts/recoleta-regulardemo-webfont.woff2") format("woff2"), url("../fonts/recoleta-regulardemo-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'recoletasemibold';
+  src: url("../fonts/recoleta-semibold-webfont.woff2") format("woff2"), url("../fonts/recoleta-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'recoletathin';
+  src: url("../fonts/recoleta-thin-webfont.woff2") format("woff2"), url("../fonts/recoleta-thin-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 131, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+html, body {
+  height: 100%; }
+
+/* line 135, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+body {
+  background-color: #F5EEE1;
+  font-family: 'maax_rounded', sans-serif;
+  font-weight: 300;
+  color: #1D1D1B;
+  line-height: normal; }
+
+/* line 143, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+a, a:hover {
+  color: #79B782;
+  outline: none;
+  text-decoration: underline; }
+
+/* line 145, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+h1 {
+  font-family: 'recoletaregular';
+  line-height: 50px; }
+
+/* line 150, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.h1, .h2, .h3, h1, h2, h3 {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+/* line 157, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+body {
+  /* ANIMATED X */
+  /* ANIMATED X COLLAPSED */
+  /* END ANIMATED X */ }
+  /* line 158, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  body.body-home {
+    padding-top: 0; }
+    /* line 163, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    body.body-home .navbar-default {
+      background-color: transparent;
+      border-color: transparent; }
+  /* line 170, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  body .navbar-default {
+    background-color: #F5EEE1; }
+    /* line 173, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    body .navbar-default .navbar-nav > li > a {
+      font-family: 'maax_roundedmedium';
+      font-size: 16px;
+      color: #231F20;
+      text-transform: capitalize;
+      text-decoration: none;
+      padding-left: 15px; }
+      /* line 181, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+      body .navbar-default .navbar-nav > li > a:hover {
+        color: #2a4728; }
+    /* line 186, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    body .navbar-default .navbar-nav > .active > a, body .navbar-default .navbar-nav > .active > a:focus, body .navbar-default .navbar-nav > .active > a:hover {
+      color: #2a4728;
+      background: url(../../images/menu-active.svg) no-repeat 0 center;
+      background-size: 25% auto;
+      border: none; }
+  /* line 194, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  body .navbar-home {
+    background-color: transparent;
+    border-color: transparent; }
+  /* line 199, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  body .navbar-toggle {
+    border: none;
+    background: transparent !important; }
+  /* line 204, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  body .navbar-toggle:hover {
+    background: transparent !important; }
+  /* line 208, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  body .navbar-toggle .icon-bar {
+    width: 22px;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s; }
+  /* line 215, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  body .navbar-toggle.x .icon-bar:nth-of-type(1) {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 10% 10%;
+    transform-origin: 10% 10%; }
+  /* line 224, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  body .navbar-toggle.x .icon-bar:nth-of-type(2) {
+    opacity: 0;
+    filter: alpha(opacity=0); }
+  /* line 229, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  body .navbar-toggle.x .icon-bar:nth-of-type(3) {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 10% 90%;
+    transform-origin: 10% 90%; }
+  /* line 239, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  body .navbar-toggle.x.collapsed .icon-bar:nth-of-type(1) {
+    -webkit-transform: rotate(0);
+    transform: rotate(0); }
+  /* line 245, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  body .navbar-toggle.x.collapsed .icon-bar:nth-of-type(2) {
+    opacity: 1;
+    filter: alpha(opacity=100); }
+  /* line 250, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  body .navbar-toggle.x.collapsed .icon-bar:nth-of-type(3) {
+    -webkit-transform: rotate(0);
+    transform: rotate(0); }
+  /* line 259, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  body .form-group label {
+    margin-bottom: 10px; }
+  /* line 261, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  body .form-group .form-control {
+    border-color: #191919;
+    border-radius: 0;
+    height: 40px; }
+  /* line 267, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  body .form-group textarea.form-control {
+    height: auto; }
+  /* line 271, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  body .btn-default {
+    background-color: #191919;
+    border-color: #191919;
+    color: #ffffff;
+    border-radius: 0;
+    padding: 10px 50px; }
+  /* line 279, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  body .btn-full {
+    width: 100%; }
+  /* line 283, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  body #slideshow .static-content {
+    padding: 20px;
+    width: 800px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -400px;
+    bottom: 20px;
+    z-index: 999; }
+    /* line 293, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    body #slideshow .static-content h1 {
+      font-family: 'Conv_monarch';
+      font-size: 80px;
+      text-align: center;
+      margin: 0;
+      color: white;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); }
+
+/* line 307, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+video {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100vw; }
+
+/* line 313, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.root {
+  position: relative;
+  padding-top: 150px;
+  overflow-x: hidden; }
+  /* line 318, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .root-home {
+    padding-top: 0 !important; }
+
+/* line 326, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+section .section-title {
+  font-family: 'maax_roundedmedium', sans-serif;
+  font-size: 18px;
+  color: #231F20;
+  text-transform: capitalize;
+  text-align: center; }
+
+/* line 334, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+section.page {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  /* line 339, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  section.page h2 {
+    font-weight: 600;
+    margin-bottom: 30px;
+    line-height: normal; }
+  /* line 345, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  section.page p {
+    color: #4a4a4a;
+    line-height: 24px; }
+  /* line 351, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  section.page--static .row {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    z-index: 9; }
+
+/* line 363, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.bg-white {
+  background-color: #ffffff; }
+
+/* line 367, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.bg-cream {
+  background-color: #F5EEE1; }
+
+/* line 371, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.pattern-01 {
+  background: url(../../images/pattern-01.svg) no-repeat center right;
+  background-size: 75% auto; }
+
+/* line 376, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.pattern-02 {
+  background: url(../../images/pattern-02@2x.png) no-repeat bottom center;
+  background-size: 100% auto; }
+
+/* line 381, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.page-name, .medium-text {
+  font-family: 'maax_roundedmedium';
+  font-size: 20px;
+  line-height: 28px; }
+
+/* line 387, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.banner-home {
+  position: relative; }
+  /* line 391, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .banner-home .page-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 9;
+    height: 100px;
+    width: 600px;
+    margin-left: -300px;
+    margin-top: -50px;
+    text-align: center; }
+    /* line 402, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .banner-home .page-title h1 {
+      font-family: 'Conv_monarch';
+      font-size: 80px;
+      text-align: center;
+      margin: 0;
+      color: white;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); }
+  /* line 412, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .banner-home .owl-theme .owl-dots {
+    position: absolute;
+    left: 10%;
+    bottom: 10%; }
+  /* line 418, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .banner-home .owl-theme .owl-dots .owl-dot.active span, .banner-home .owl-theme .owl-dots .owl-dot:hover span {
+    background-color: #E27A44; }
+  /* line 422, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .banner-home .owl-theme .owl-dots .owl-dot span {
+    background-color: transparent;
+    border: 1px solid #E27A44;
+    margin: 5px; }
+
+/* line 429, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.product {
+  min-height: 1000px;
+  padding-top: 50px;
+  position: relative; }
+  /* line 435, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .product-tab {
+    padding-left: 0;
+    font-size: 16px;
+    font-weight: 600; }
+    /* line 441, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .product-tab li {
+      list-style: none;
+      display: inline-block; }
+      /* line 446, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+      .product-tab li.active > a {
+        color: #E17A44 !important;
+        color: #191919; }
+      /* line 453, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+      .product-tab li > a {
+        color: #191919;
+        text-decoration: none;
+        font-size: 18px;
+        padding-right: 15px;
+        font-family: 'maax_roundedmedium'; }
+  /* line 465, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .product-desc {
+    padding-top: 5px;
+    line-height: 21px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #1D1D1B;
+    margin-bottom: 20px; }
+    /* line 469, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .product-desc h5 {
+      position: relative;
+      font-size: 16px;
+      font-family: 'maax_roundedmedium';
+      text-transform: uppercase; }
+      /* line 475, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+      .product-desc h5 strong {
+        display: block;
+        position: relative; }
+        /* line 479, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+        .product-desc h5 strong::before {
+          background: url(../../images/arrow-bottom.png) no-repeat top center;
+          position: absolute;
+          right: 0;
+          top: 5px;
+          z-index: 2;
+          display: block;
+          content: '';
+          width: 16px;
+          height: 9px; }
+      /* line 493, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+      .product-desc h5 strong.clicked::before {
+        background: url(../../images/arrow-bottom.png) no-repeat top center;
+        position: absolute;
+        right: 0;
+        top: 5px;
+        z-index: 2;
+        display: block;
+        content: '';
+        width: 16px;
+        height: 9px;
+        -webkit-transform: rotate(-180deg);
+                transform: rotate(-180deg);
+        -webkit-transition: -webkit-transform 150ms ease;
+        transition: -webkit-transform 150ms ease;
+        transition: transform 150ms ease;
+        transition: transform 150ms ease, -webkit-transform 150ms ease; }
+    /* line 515, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .product-desc--content {
+      margin-top: 20px;
+      font-size: 16px; }
+      /* line 519, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+      .product-desc--content a {
+        display: block;
+        text-decoration: none; }
+  /* line 528, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .product-particle-01 {
+    background: url(../../images/particle-pdp.png) no-repeat top center;
+    background-size: 75% auto;
+    width: 114px;
+    height: 116px;
+    position: absolute;
+    left: -50px;
+    top: -40px;
+    z-index: -1; }
+  /* line 539, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .product-particle-02 {
+    position: absolute;
+    left: 50px;
+    top: 320px;
+    z-index: -1; }
+  /* line 548, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .product-summary {
+    padding-top: 100px;
+    padding-left: 50px; }
+    /* line 553, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .product-summary--title {
+      position: relative;
+      display: inline-block; }
+      /* line 558, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+      .product-summary--title .best-seller {
+        position: absolute;
+        right: -120px;
+        top: -60px;
+        background: url(../../images/best-sellers.png) no-repeat top center;
+        background-size: 100px auto;
+        width: 130px;
+        height: 123px; }
+      /* line 568, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+      .product-summary--title h2 {
+        font-family: 'recoletaregular';
+        font-size: 40px;
+        margin-bottom: 20px;
+        z-index: 9; }
+        /* line 575, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+        .product-summary--title h2 a {
+          text-decoration: none;
+          color: #191919; }
+          /* line 577, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+          .product-summary--title h2 a:hover {
+            color: #E17A44; }
+    /* line 587, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .product-summary p {
+      font-size: 16px;
+      line-height: 24px; }
+    /* line 592, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .product-summary strong {
+      font-family: 'maax_roundedmedium'; }
+
+/* line 598, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.product-carousel.owl-theme .owl-dots .owl-dot.active span, .product-carousel.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #E27A44; }
+
+/* line 602, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.product-carousel.owl-theme .owl-dots .owl-dot span {
+  background-color: transparent;
+  border: 1px solid #E27A44;
+  margin: 5px; }
+
+/* line 608, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.product-carousel .item {
+  text-align: center; }
+
+/* line 612, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.product-carousel.owl-carousel .owl-item img {
+  display: inline; }
+
+/* line 617, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+article {
+  position: relative; }
+  /* line 621, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  article .post {
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 2; }
+    /* line 629, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    article .post .entry-title {
+      font-weight: 500;
+      font-size: 24px; }
+    /* line 634, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    article .post .entry-author {
+      text-decoration: underline; }
+    /* line 639, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    article .post .entry-content p {
+      font-size: 12px;
+      font-weight: 300;
+      color: #ffffff;
+      line-height: 24px; }
+  /* line 649, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  article:after {
+    content: '';
+    display: block;
+    /*
+    background-color: rgba(0, 0, 0, .7);*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%; }
+
+/* line 664, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.home-carousel, .slide-carousel {
+  position: relative; }
+  /* line 670, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .home-carousel.owl-theme .owl-nav [class*=owl-], .slide-carousel.owl-theme .owl-nav [class*=owl-] {
+    background-color: transparent; }
+  /* line 673, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .home-carousel.owl-theme .owl-nav, .slide-carousel.owl-theme .owl-nav {
+    position: absolute;
+    height: 40px;
+    top: 50%;
+    left: 0;
+    margin-top: -20px;
+    z-index: 9;
+    width: 100%; }
+    /* line 682, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .home-carousel.owl-theme .owl-nav .owl-prev, .home-carousel.owl-theme .owl-nav .owl-next, .slide-carousel.owl-theme .owl-nav .owl-prev, .slide-carousel.owl-theme .owl-nav .owl-next {
+      position: absolute;
+      height: 40px;
+      top: 50%;
+      margin-top: -20px; }
+    /* line 689, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .home-carousel.owl-theme .owl-nav .owl-prev, .home-carousel.owl-theme .owl-nav .owl-prev:hover, .slide-carousel.owl-theme .owl-nav .owl-prev, .slide-carousel.owl-theme .owl-nav .owl-prev:hover {
+      background-color: transparent;
+      border-radius: 0;
+      background: url(../img/arrow-prev.png) no-repeat top center;
+      width: 40px;
+      height: 40px;
+      display: block;
+      background-size: 40px auto;
+      left: 30px; }
+      /* line 699, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+      .home-carousel.owl-theme .owl-nav .owl-prev span, .home-carousel.owl-theme .owl-nav .owl-prev:hover span, .slide-carousel.owl-theme .owl-nav .owl-prev span, .slide-carousel.owl-theme .owl-nav .owl-prev:hover span {
+        display: none; }
+    /* line 703, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .home-carousel.owl-theme .owl-nav .owl-next, .home-carousel.owl-theme .owl-nav .owl-next:hover, .slide-carousel.owl-theme .owl-nav .owl-next, .slide-carousel.owl-theme .owl-nav .owl-next:hover {
+      background-color: transparent;
+      border-radius: 0;
+      background: url(../img/arrow-next.png) no-repeat top center;
+      width: 40px;
+      height: 40px;
+      display: block;
+      background-size: 40px auto;
+      right: 30px; }
+      /* line 713, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+      .home-carousel.owl-theme .owl-nav .owl-next span, .home-carousel.owl-theme .owl-nav .owl-next:hover span, .slide-carousel.owl-theme .owl-nav .owl-next span, .slide-carousel.owl-theme .owl-nav .owl-next:hover span {
+        display: none; }
+
+/* line 721, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.success-story {
+  text-align: left; }
+  /* line 723, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .success-story.testimony-content {
+    padding: 20px; }
+  /* line 727, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .success-story .heading-success-story {
+    height: 28px;
+    width: auto !important;
+    margin: 30px auto; }
+
+/* line 736, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.testimony-content {
+  position: relative;
+  padding: 50px;
+  background-color: #ffffff;
+  z-index: 1;
+  line-height: 24px;
+  font-size: 16px; }
+  /* line 745, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .testimony-content p {
+    font-family: 'recoletaregular';
+    font-size: 20px;
+    line-height: 36px; }
+  /* line 751, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .testimony-content h4 {
+    font-family: 'maax_roundedmedium';
+    line-height: 27px; }
+  /* line 756, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .testimony-content strong {
+    font-family: 'maax_roundedmedium';
+    font-size: 16px; }
+
+/* line 763, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.testimony-carousel {
+  position: relative; }
+  /* line 769, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .testimony-carousel.owl-theme .owl-nav [class*=owl-] {
+    background-color: transparent; }
+  /* line 772, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .testimony-carousel.owl-theme .owl-nav {
+    position: absolute;
+    height: 40px;
+    top: 50%;
+    left: 0;
+    margin-top: -20px;
+    z-index: 9;
+    width: 100%; }
+    /* line 781, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .testimony-carousel.owl-theme .owl-nav .owl-prev, .testimony-carousel.owl-theme .owl-nav .owl-next {
+      position: absolute;
+      height: 40px;
+      top: 50%;
+      margin-top: -20px; }
+    /* line 788, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .testimony-carousel.owl-theme .owl-nav .owl-prev, .testimony-carousel.owl-theme .owl-nav .owl-prev:hover {
+      background-color: transparent;
+      border-radius: 0;
+      background: url(../img/arrow-prev-orange@2x.png) no-repeat top center;
+      background-size: 100% auto;
+      width: 12px;
+      height: 25px;
+      display: block;
+      left: -5%; }
+      /* line 798, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+      .testimony-carousel.owl-theme .owl-nav .owl-prev span, .testimony-carousel.owl-theme .owl-nav .owl-prev:hover span {
+        display: none; }
+    /* line 802, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .testimony-carousel.owl-theme .owl-nav .owl-next, .testimony-carousel.owl-theme .owl-nav .owl-next:hover {
+      background-color: transparent;
+      border-radius: 0;
+      background: url(../img/arrow-next-orange@2x.png) no-repeat top center;
+      background-size: 100% auto;
+      width: 12px;
+      height: 25px;
+      display: block;
+      right: -5%; }
+      /* line 812, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+      .testimony-carousel.owl-theme .owl-nav .owl-next span, .testimony-carousel.owl-theme .owl-nav .owl-next:hover span {
+        display: none; }
+
+/* line 821, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.instagram {
+  min-height: 480px; }
+
+/* line 827, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.distributor-wrap {
+  padding: 50px; }
+  /* line 831, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .distributor-wrap h4 {
+    font-family: 'maax_roundedmedium'; }
+
+/* line 836, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.distributor-partner {
+  text-align: center; }
+  /* line 839, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .distributor-partner span {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    width: 22.5%; }
+
+/* line 847, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.distributor-area {
+  padding-top: 5px;
+  cursor: pointer;
+  line-height: 21px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d8d8d8;
+  margin-bottom: 20px; }
+  /* line 852, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .distributor-area h5 {
+    font-size: 16px;
+    font-family: 'maax_roundedmedium';
+    text-transform: uppercase; }
+  /* line 863, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .distributor-area--content {
+    margin-top: 20px;
+    font-size: 16px; }
+    /* line 867, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .distributor-area--content a {
+      display: block;
+      text-decoration: none; }
+
+/* line 879, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.booking-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between; }
+
+/* line 888, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.booking label {
+  font-family: 'maax_rounded';
+  text-transform: uppercase; }
+
+/* line 893, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.booking input[type='text'] {
+  font-family: 'maax_rounded';
+  font-size: 16px;
+  background: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px; }
+
+/* line 904, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.booking input[type='submit'] {
+  font-family: 'maax_rounded';
+  background-color: #E27A44;
+  color: #ffffff;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 12px 25px;
+  border: 1px solid #E27A44;
+  border-radius: 100px;
+  width: 100%;
+  margin: 20px auto; }
+
+/* line 917, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.booking select {
+  display: block;
+  border-bottom: 1px solid #2a4728;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: none;
+  background: transparent;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 15px 15px;
+  height: 65px;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px; }
+
+/* line 935, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.contact {
+  position: relative; }
+  /* line 939, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .contact-particle {
+    position: absolute;
+    top: 0;
+    right: -20%;
+    z-index: -1; }
+  /* line 947, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .contact-wrap h2 {
+    font-family: 'recoletaregular';
+    font-size: 40px;
+    margin-bottom: 20px;
+    z-index: 9; }
+  /* line 955, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .contact-box {
+    font-family: 'maax_rounded';
+    line-height: normal;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #1D1D1B;
+    border-bottom: 1px solid #1D1D1B; }
+    /* line 963, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .contact-box--label {
+      border-right: 1px solid #1D1D1B; }
+    /* line 967, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .contact-box label {
+      font-family: 'maax_rounded';
+      font-size: 16px;
+      display: block; }
+    /* line 972, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .contact-box p {
+      font-family: 'maax_roundedmedium';
+      font-size: 18px;
+      line-height: 25px;
+      margin: 0; }
+    /* line 978, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .contact-box .border-right {
+      border-right: 1px solid #1D1D1B; }
+    /* line 981, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .contact-box .border-left {
+      border-left: 1px solid #1D1D1B; }
+    /* line 984, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .contact-box a {
+      font-family: 'maax_roundedmedium';
+      font-size: 16px;
+      color: #191919;
+      text-decoration: none; }
+  /* line 992, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .contact.page {
+    background: url(../../images/banner-contact.jpg) no-repeat top center fixed;
+    background-size: 100% auto;
+    min-height: 450px;
+    position: relative; }
+    /* line 998, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .contact.page h1 {
+      color: #ffffff; }
+    /* line 1002, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .contact.page .row > div:first-child {
+      border-right: 1px solid #ffffff;
+      padding-right: 50px; }
+    /* line 1007, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .contact.page .row > div:last-child {
+      padding-left: 50px; }
+    /* line 1011, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .contact.page input[type='text'] {
+      font-family: 'maax_rounded';
+      color: #ffffff;
+      font-size: 16px;
+      background: transparent;
+      padding: 15px 15px;
+      border: 1px solid #ffffff;
+      display: block;
+      width: 100%;
+      margin-bottom: 10px; }
+      /* line 1022, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+      .contact.page input[type='text']::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: #ffffff; }
+      /* line 1025, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+      .contact.page input[type='text']::-moz-placeholder {
+        /* Firefox 19+ */
+        color: #ffffff; }
+      /* line 1028, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+      .contact.page input[type='text']::-ms-input-placeholder {
+        /* IE 10+ */
+        color: #ffffff; }
+      /* line 1031, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+      .contact.page input[type='text']::-moz-placeholder {
+        /* Firefox 18- */
+        color: #ffffff; }
+    /* line 1037, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .contact.page textarea {
+      font-family: 'maax_rounded';
+      color: #ffffff;
+      font-size: 16px;
+      background: transparent;
+      padding: 15px 15px;
+      border: 1px solid #ffffff;
+      display: block;
+      width: 100%;
+      margin-bottom: 10px; }
+    /* line 1049, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .contact.page input[type='submit'] {
+      font-family: 'maax_rounded';
+      font-size: 18px;
+      color: #a59645;
+      text-transform: uppercase;
+      background: #ffffff;
+      padding: 12px 30px;
+      border: 1px solid #ffffff; }
+
+/* line 1064, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.explore.page {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  /* line 1068, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .explore.page .explore-content {
+    padding-top: 100px; }
+    /* line 1072, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .explore.page .explore-content h2 {
+      font-family: 'maax_rounded';
+      font-size: 32px;
+      color: #a59645; }
+    /* line 1078, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .explore.page .explore-content h4 {
+      font-family: 'maax_rounded';
+      font-size: 21px;
+      color: #a59645; }
+
+/* line 1088, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+footer {
+  background: url(../../images/footer-bg@2x.png) no-repeat top center;
+  background-size: cover;
+  color: #231F20;
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 50px; }
+  /* line 1096, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  footer h3 {
+    font-family: 'maax_roundedbold';
+    font-size: 21px;
+    text-transform: uppercase;
+    margin-bottom: 20px; }
+  /* line 1104, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  footer .social-media a {
+    margin: 0 5px; }
+  /* line 1107, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  footer .social-media a > img {
+    display: inline-block;
+    height: 30px;
+    margin-top: 20px; }
+  /* line 1114, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  footer a {
+    text-decoration: none;
+    color: #231F20; }
+  /* line 1119, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  footer .footer-nav {
+    list-style: none;
+    margin: 0;
+    padding: 30px 0 0 0;
+    text-align: center; }
+    /* line 1125, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    footer .footer-nav > li {
+      font-family: 'maax_roundedmedium';
+      font-size: 16px;
+      display: inline-block;
+      padding-left: 10px;
+      padding-right: 10px; }
+      /* line 1132, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+      footer .footer-nav > li a:hover {
+        color: #ffffff; }
+
+/* line 1140, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.clearfix {
+  clear: both; }
+
+/* line 1148, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.margin-large--h {
+  margin-left: 50px;
+  margin-right: 50px; }
+
+/* line 1149, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.margin-large--v {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+/* line 1150, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.margin-large--r {
+  margin-right: 50px; }
+
+/* line 1151, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.margin-large--l {
+  margin-left: 50px; }
+
+/* line 1152, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.margin-large--t {
+  margin-top: 50px; }
+
+/* line 1153, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.margin-large--b {
+  margin-bottom: 50px; }
+
+/* line 1156, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.margin-medium--h {
+  margin-left: 20px;
+  margin-right: 20px; }
+
+/* line 1157, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.margin-medium--v {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+/* line 1158, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.margin-medium--r {
+  margin-right: 20px; }
+
+/* line 1159, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.margin-medium--l {
+  margin-left: 20px; }
+
+/* line 1160, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.margin-medium--t {
+  margin-top: 20px; }
+
+/* line 1161, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.margin-medium--b {
+  margin-bottom: 20px; }
+
+/* line 1164, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.margin-small--h {
+  margin-left: 5px;
+  margin-right: 5px; }
+
+/* line 1165, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.margin-small--v {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+/* line 1166, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.margin-small--r {
+  margin-right: 5px; }
+
+/* line 1167, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.margin-small--l {
+  margin-left: 5px; }
+
+/* line 1168, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.margin-small--t {
+  margin-top: 5px; }
+
+/* line 1169, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.margin-small--b {
+  margin-bottom: 5px; }
+
+/* line 1172, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.margin-no {
+  margin: 0 !important; }
+
+/* line 1178, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.padding-xlarge--h {
+  padding-left: 50px;
+  padding-right: 50px; }
+
+/* line 1179, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.padding-xlarge--v {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+/* line 1180, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.padding-xlarge--t {
+  padding-top: 50px; }
+
+/* line 1181, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.padding-xlarge--b {
+  padding-top: 50px; }
+
+/* line 1182, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.padding-xlarge--r {
+  padding-right: 50px; }
+
+/* line 1183, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.padding-xlarge--l {
+  padding-left: 50px; }
+
+/* line 1186, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.padding-large--h {
+  padding-left: 30px;
+  padding-right: 30px; }
+
+/* line 1187, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.padding-large--v {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+/* line 1188, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.padding-large--r {
+  padding-right: 30px; }
+
+/* line 1189, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.padding-large--l {
+  padding-left: 30px; }
+
+/* line 1190, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.padding-large--t {
+  padding-top: 30px; }
+
+/* line 1191, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.padding-large--b {
+  padding-bottom: 30px; }
+
+/* line 1194, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.padding-medium--h {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+/* line 1195, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.padding-medium--v {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+/* line 1196, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.padding-medium--r {
+  padding-right: 10px; }
+
+/* line 1197, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.padding-medium--l {
+  padding-left: 10px; }
+
+/* line 1200, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.padding-small--h {
+  padding-left: 5px;
+  padding-right: 5px; }
+
+/* line 1201, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.padding-small--v {
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+/* line 1202, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.padding-small--r {
+  padding-right: 5px; }
+
+/* line 1203, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.padding-small--l {
+  padding-left: 5px; }
+
+/* line 1205, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.padding-no {
+  padding: 0 !important; }
+
+/* line 1209, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.font-small {
+  font-size: 10px; }
+
+/* line 1210, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.font-normal {
+  font-size: 12px; }
+
+/* line 1211, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.font-medium {
+  font-size: 14px; }
+
+/* line 1212, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.font-large {
+  font-size: 18px; }
+
+/* line 1213, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.font-extra {
+  font-size: 72px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 80px; }
+
+/* line 1217, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.text-white {
+  color: #ffffff; }
+
+/* line 1221, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.list-column li {
+  display: inline-block; }
+
+/* line 1224, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.list-styled {
+  padding-left: 15px; }
+  /* line 1227, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .list-styled li {
+    line-height: 24px; }
+
+/* line 1233, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.flex-container {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+/* line 1246, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.flex-item {
+  text-align: center; }
+
+/* line 1250, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.overlay {
+  position: relative; }
+  /* line 1254, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .overlay:after {
+    content: '';
+    display: block;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%; }
+
+/* DESKTOP */
+@media (min-width: 1024px) {
+  /* line 1271, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px; }
+    /* line 1276, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .navbar-nav {
+      margin-top: 25px;
+      margin-left: auto !important;
+      margin-right: auto; }
+      /* line 1281, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+      .navbar-nav li:last-child {
+        padding-right: 0; }
+    /* line 1285, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .navbar-brand {
+      float: none;
+      height: auto;
+      margin: 0 auto !important; }
+      /* line 1290, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+      .navbar-brand > img {
+        height: auto;
+        /*margin: 0 auto;*/ }
+  /* line 1294, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .navbar-nav > li {
+    padding-left: 15px;
+    padding-right: 15px; }
+  /* line 1298, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .navbar-nav > li > a {
+    padding: 15px 0;
+    line-height: 20px; }
+  /* line 1304, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .testimony-carousel.owl-carousel .owl-item img {
+    display: inline; } }
+
+/* line 1312, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.d-inline {
+  display: inline-block; }
+
+/* line 1316, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+.d-block {
+  display: block; }
+
+/* MOBILE */
+@media (max-width: 1023px) {
+  /* line 1324, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  h1, .h1 {
+    font-size: 27px; }
+  /* line 1328, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .root {
+    padding-top: 80px; }
+  /* line 1332, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none; }
+    /* line 1338, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .navbar-nav {
+      margin-top: 0;
+      margin-bottom: 0; }
+    /* line 1343, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .navbar-brand {
+      margin-left: 10px; }
+      /* line 1347, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+      .navbar-brand > img {
+        height: 30px; }
+  /* FORCE NAVBAR-TOGGLE */
+  /* line 1354, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .navbar-header {
+    float: none;
+    padding-top: 15px;
+    padding-bottom: 15px; }
+  /* line 1360, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .navbar-toggle {
+    display: block; }
+  /* line 1364, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+  /* line 1369, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .navbar-collapse.collapse {
+    display: none !important; }
+  /* line 1373, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .navbar-nav {
+    float: none !important;
+    margin: 7.5px -15px; }
+  /* line 1378, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .navbar-nav > li {
+    float: none; }
+  /* line 1382, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  /* line 1387, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .navbar-collapse.collapse.in {
+    display: block !important; }
+  /* line 1391, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #2a4728; }
+  /* line 1394, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .nav > li {
+    text-align: left;
+    padding: 10px;
+    display: block; }
+  /* line 1399, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .nav > li > a {
+    font-size: 16px; }
+  /* line 1404, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .banner-home .page-title {
+    height: 60px;
+    width: 240px;
+    margin-top: -30px;
+    margin-left: -120px;
+    vertical-align: middle; }
+    /* line 1411, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .banner-home .page-title h1 {
+      font-size: 27px; }
+  /* line 1419, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  section.page {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    /* line 1424, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    section.page h2 {
+      margin-bottom: 15px; }
+    /* line 1425, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    section.page h4 {
+      margin-bottom: 20px; }
+    /* line 1427, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    section.page p {
+      font-size: 14px;
+      line-height: 21px; }
+    /* line 1430, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    section.page--static .row {
+      padding-top: 15px;
+      padding-bottom: 15px; }
+  /* line 1437, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  section .img-responsive {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto; }
+  /* line 1445, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .banner-home .owl-theme .owl-dots {
+    position: absolute;
+    left: 25px;
+    bottom: 10px; }
+  /* line 1453, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .product-summary {
+    padding-top: 50px;
+    padding-left: 0; }
+    /* line 1457, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .product-summary p {
+      font-size: 14px;
+      line-height: 24px; }
+    /* line 1462, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .product-summary h2 {
+      font-size: 24px; }
+    /* line 1466, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .product-summary h5 {
+      font-size: 14px; }
+  /* line 1472, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .product-particle-01 {
+    background-size: 40% auto;
+    top: -15px;
+    left: -45px; }
+  /* line 1478, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .product-particle-02 {
+    top: 250px;
+    left: -50px;
+    z-index: -5; }
+    /* line 1484, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .product-particle-02 img {
+      width: 70%; }
+  /* line 1490, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  #try {
+    margin-bottom: 30px; }
+    /* line 1491, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    #try > div {
+      margin-bottom: -125px !important; }
+  /* line 1499, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .distributor-wrap {
+    margin-top: 30px;
+    padding: 30px; }
+  /* line 1504, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .distributor-partner span {
+    width: 100%;
+    padding: 20px; }
+  /* line 1511, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .distributor-contact .contact-box--label {
+    padding-top: 20px; }
+  /* line 1515, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .distributor-contact .contact-box--email, .distributor-contact .contact-box--phone {
+    margin-bottom: 20px; }
+  /* line 1522, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .success-story {
+    text-align: center; }
+    /* line 1524, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .success-story.testimony-content {
+      padding: 15px 5px; }
+    /* line 1528, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .success-story .heading-success-story {
+      height: 20px;
+      width: auto !important;
+      margin: 30px auto; }
+    /* line 1534, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .success-story h4 {
+      font-size: 14px; }
+  /* line 1540, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .testimony-content {
+    padding: 20px;
+    margin: 30px;
+    line-height: 24px !important;
+    text-align: center; }
+    /* line 1546, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .testimony-content p {
+      text-align: center; }
+      /* line 1549, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+      .testimony-content p img {
+        margin: 0 auto; }
+    /* line 1554, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .testimony-content .reviewer {
+      font-size: 12px; }
+  /* line 1560, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .testimony-carousel.owl-theme .owl-nav .owl-prev, .testimony-carousel.owl-theme .owl-nav .owl-prev:hover {
+    left: -2%; }
+  /* line 1563, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .testimony-carousel.owl-theme .owl-nav .owl-next, .testimony-carousel.owl-theme .owl-nav .owl-next:hover {
+    right: -2%; }
+  /* line 1568, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .page-name, .medium-text {
+    font-size: 16px;
+    line-height: 24px; }
+  /* line 1576, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .contact-wrap h2 {
+    font-size: 27px;
+    line-height: 35px; }
+  /* line 1582, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .contact-box {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    /* line 1587, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .contact-box p, .contact-box label, .contact-box a {
+      font-size: 14px;
+      line-height: normal;
+      overflow-wrap: break-word; }
+  /* line 1590, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .contact-box.margin-large--v {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 0;
+    padding-bottom: 0; }
+  /* line 1597, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .contact-box--label {
+    border-right: 0;
+    border-bottom: 1px solid #1D1D1B;
+    padding-bottom: 20px;
+    font-size: 12px;
+    line-height: normal; }
+  /* line 1605, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .contact-box--email {
+    margin-top: 20px;
+    border-right: 1px solid #1D1D1B; }
+  /* line 1610, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .contact-box--email.padding-xlarge--l, .contact-box--phone.padding-xlarge--l, .contact .social-media.padding-xlarge--l {
+    padding-left: 0;
+    padding-right: 0; }
+  /* line 1615, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .contact-box--email.padding-xlarge--l, .contact-box--phone.padding-xlarge--l {
+    border-bottom: 1px solid #1D1D1B;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-left: 0;
+    border-right: 0;
+    padding-bottom: 20px; }
+  /* line 1624, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .contact .social-media.padding-xlarge--l {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    /* line 1628, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .contact .social-media.padding-xlarge--l img {
+      height: 20px; }
+  /* line 1634, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .contact-box--phone {
+    margin-top: 20px; }
+  /* line 1638, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .contact-particle {
+    position: absolute;
+    top: 150px;
+    right: 0;
+    z-index: -1;
+    text-align: right; }
+  /* line 1646, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .contact.page {
+    min-height: 100%;
+    background-size: auto; }
+    /* line 1649, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .contact.page .row > div:first-child {
+      padding-right: 15px;
+      border: none; }
+    /* line 1653, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .contact.page .row > div:last-child {
+      padding-left: 15px;
+      margin-top: 30px; }
+    /* line 1657, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .contact.page input[type='submit'] {
+      width: 100%; }
+  /* line 1663, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  footer {
+    background: url(../../images/mfooter-trans.png) no-repeat top center;
+    background-size: cover;
+    color: #231F20;
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 20px; }
+    /* line 1671, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    footer .logo {
+      margin-top: 130px;
+      vertical-align: bottom; }
+      /* line 1675, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+      footer .logo img {
+        max-width: 120px;
+        width: 100%; }
+    /* line 1681, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    footer .footer-nav {
+      text-align: right; }
+      /* line 1684, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+      footer .footer-nav li {
+        display: block; }
+      /* line 1688, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+      footer .footer-nav a {
+        font-size: 12px; }
+    /* line 1693, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    footer .social-media {
+      text-align: right; }
+      /* line 1696, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+      footer .social-media a {
+        margin-left: 3px !important;
+        margin-right: 3px !important; }
+      /* line 1701, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+      footer .social-media a > img {
+        height: 20px; }
+  /* line 1707, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .instagram {
+    min-height: 200px; }
+    /* line 1709, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .instagram.page {
+      padding-top: 20px; }
+    /* line 1713, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+    .instagram h1 {
+      font-size: 24px; }
+  /* line 1720, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .home-carousel.owl-theme .owl-nav .owl-prev, .home-carousel.owl-theme .owl-nav .owl-prev:hover, .slide-carousel.owl-theme .owl-nav .owl-prev, .slide-carousel.owl-theme .owl-nav .owl-prev:hover {
+    background-size: 15px auto;
+    width: 15px;
+    height: 15px;
+    left: 10px; }
+  /* line 1727, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .home-carousel.owl-theme .owl-nav .owl-next, .home-carousel.owl-theme .owl-nav .owl-next:hover, .slide-carousel.owl-theme .owl-nav .owl-next, .slide-carousel.owl-theme .owl-nav .owl-next:hover {
+    background-size: 15px auto;
+    width: 15px;
+    height: 15px;
+    right: 10px; }
+  /* line 1734, Applications/MAMP/htdocs/oleca/scss/styles.scss */
+  .home-carousel.owl-theme .owl-nav, .slide-carousel.owl-theme .owl-nav {
+    position: absolute;
+    height: 15px;
+    top: 50%;
+    left: 0;
+    margin-top: 5px;
+    z-index: 9;
+    width: 100%; } }
+/*# sourceMappingURL=styles.css.map */
